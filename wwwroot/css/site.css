@@ -1,0 +1,406 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.btn-primary, .btn-info, .btn-danger, .btn-success {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+h1 {
+    color: #343a40;
+}
+
+.card {
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #495057;
+}
+
+.form-control, .form-select {
+    border-radius: 0.25rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.btn {
+    border-radius: 0.25rem;
+}
+
+.shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+h1 {
+    color: #343a40;
+}
+
+.card {
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #495057;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #495057;
+}
+
+.form-control, .form-select {
+    border-radius: 0.25rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.btn {
+    border-radius: 0.25rem;
+}
+
+.shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+h1 {
+    color: #343a40;
+}
+
+.card {
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #495057;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #495057;
+}
+
+.form-control, .form-select {
+    border-radius: 0.25rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.btn {
+    border-radius: 0.25rem;
+}
+
+.shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+/* Style général pour le formulaire */
+.container {
+    max-width: 800px; /* Limite la largeur du conteneur pour un meilleur alignement */
+    margin-top: 20px; /* Espace au-dessus du conteneur */
+}
+
+h1 {
+    font-size: 2rem; /* Taille de police plus grande pour le titre */
+    color: #007bff; /* Couleur du texte */
+    margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+.form-label {
+    font-weight: bold; /* Texte en gras pour les labels */
+}
+
+.form-control {
+    border-radius: 0.25rem; /* Bords arrondis pour les champs de texte */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075); /* Légère ombre intérieure */
+}
+
+.form-select {
+    border-radius: 0.25rem; /* Bords arrondis pour les listes déroulantes */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075); /* Légère ombre intérieure */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Couleur de fond pour le bouton primaire */
+    border-color: #007bff; /* Couleur de bordure pour le bouton primaire */
+    border-radius: 0.25rem; /* Bords arrondis pour les boutons */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Ombre extérieure */
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3; /* Couleur de fond au survol */
+        border-color: #004085; /* Couleur de bordure au survol */
+    }
+
+.btn-secondary {
+    background-color: #6c757d; /* Couleur de fond pour le bouton secondaire */
+    border-color: #6c757d; /* Couleur de bordure pour le bouton secondaire */
+    border-radius: 0.25rem; /* Bords arrondis pour les boutons */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Ombre extérieure */
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268; /* Couleur de fond au survol */
+        border-color: #545b62; /* Couleur de bordure au survol */
+    }
+
+.text-danger {
+    color: #dc3545; /* Couleur pour les messages d'erreur */
+}
+
+.mb-3 {
+    margin-bottom: 1rem; /* Espacement inférieur pour les groupes de formulaire */
+}
+
+.text-center {
+    text-align: center; /* Aligne le texte au centre */
+}
+
+.mt-5 {
+    margin-top: 3rem; /* Espacement supérieur */
+}
+/* Ajoutez ce CSS dans votre fichier site.css ou un autre fichier CSS lié */
+
+.container {
+    max-width: 900px; /* Augmentez la largeur maximale pour plus d'espace */
+    padding: 20px; /* Ajoute de l'espace intérieur */
+}
+
+h1.text-primary {
+    font-size: 2.5rem; /* Augmente la taille du titre */
+}
+
+.form-label {
+    font-weight: bold; /* Rend les étiquettes en gras */
+}
+
+.form-control, .form-select {
+    border-radius: 0.25rem; /* Bords arrondis pour les champs de formulaire */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Couleur primaire */
+    border-color: #007bff; /* Couleur de bordure pour le bouton primaire */
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3; /* Couleur de fond au survol */
+        border-color: #004085; /* Couleur de bordure au survol */
+    }
+
+.btn-secondary {
+    background-color: #6c757d; /* Couleur secondaire */
+    border-color: #6c757d; /* Couleur de bordure pour le bouton secondaire */
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268; /* Couleur de fond au survol */
+        border-color: #545b62; /* Couleur de bordure au survol */
+    }
+
+.text-danger {
+    color: #dc3545; /* Couleur des messages d'erreur */
+}
+/* Ajoutez ce CSS dans votre fichier site.css ou un autre fichier CSS lié */
+
+.text-center {
+    text-align: center;
+}
+
+.display-4 {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.text-primary {
+    color: #007bff; /* Couleur primaire */
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.btn-lg {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}

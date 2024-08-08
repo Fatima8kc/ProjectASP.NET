@@ -1,0 +1,48 @@
+﻿@model IEnumerable<CommandesG.Models.Order>
+
+@{
+    ViewData["Title"] = "Commandes";
+}
+
+<h1>Orders</h1>
+<form asp-action="Index" method="get" class="mb-4">
+    <div class="input-group">
+        <input type="text" name="searchString" class="form-control" placeholder="Search by Order ID or Customer ID" value="@ViewData["CurrentFilter"]" />
+        <button type="submit" class="btn btn-primary">
+            <i class="fas fa-search"></i> Search
+        </button>
+    </div>
+</form>
+<p>
+    <a asp-action="Create" class="btn btn-success">
+        <i class="fas fa-plus"></i> Create New
+    </a>
+</p>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var item in Model)
+    {
+        <div class="col">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Order ID: @item.OrderId</h5>
+                    <p class="card-text"><strong>Order Date:</strong> @item.OrderDate</p>
+                    <p class="card-text"><strong>Customer ID:</strong> @item.CustomerId</p>
+                    <p class="card-text"><strong>Employee ID:</strong> @item.EmployeeId</p>
+                    <p class="card-text"><strong>Ship Date:</strong> @item.ShippedDate</p>
+                    <p class="card-text"><strong>Freight:</strong> @item.Freight</p>
+                    <div class="d-flex justify-content-between">
+                        <a asp-action="Edit" asp-route-id="@item.OrderId" class="btn btn-primary">
+                            <i class="fas fa-edit"></i> Edit
+                        </a>
+                        <a asp-action="Details" asp-route-id="@item.OrderId" class="btn btn-info">
+                            <i class="fas fa-info-circle"></i> Details
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.OrderId" class="btn btn-danger">
+                            <i class="fas fa-trash-alt"></i> Delete
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
